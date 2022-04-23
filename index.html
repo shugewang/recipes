@@ -3,9 +3,48 @@
     <head>
         <title>Recipes Homepage</title>
         <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width" initial-scale = 1>
+        <link rel="icon" href="https://api.iconify.design/fluent/food-24-filled.svg">
     </head>
 
     <body>
-        <h1>Recipes</h1>
+        <header class="flex-center">
+            <h1>Vegan Recipes</h1>
+        </header>
+
+        <nav id="navbar">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="mains.html">Mains</a></li>
+                <li><a class="nav-link" href="desserts.html">Desserts</a></li>
+            </ul>
+        </nav>
+        
+        <div id="wrapper">
+            <section id="intro">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            
+            <section id="recipe-section">
+                <h1>Recipes</h1>
+                <div id="featured">
+                    <div class="tile">
+                        <a href="recipes/chocolate-cookies.html">Chocolate Cookies<br><img class="recipe-image" src="https://loremflickr.com/300/300" /></a>
+                    </div>
+
+                    <div class="tile">
+                        <a href="recipes/chocolate-cake.html">Chocolate Cake<br><img class="recipe-image" src="https://loremflickr.com/300/300" /></a>
+                    </div>
+
+                    <div class="tile">
+                        <a href="recipes/brownies.html">Brownies<br><img class="recipe-image" src="https://loremflickr.com/300/300" /></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+
+        </footer>
     </body>
 </html>

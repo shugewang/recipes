@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat&display=swap');
+
+body * {
+    border: 2px solid red;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --main-background:#FFF9F6;
+    --main-green:#28536B;
+}
+
+body {
+    /*font-family: 'Bree Serif', serif;*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--main-background);
+    color: var(--main-green);
+}
+
+a {
+    text-decoration:none;
+}
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+}
+
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+    position:fixed;
+    top:0;
+    width:100vw;
+}
+
+#navbar > ul {
+    display:flex;
+    list-style:none;
+    gap: 1rem;
+}
+
+.nav-link{
+    color: var(--main-green);
+}
+
+.recipe-image{
+    max-width:200px;
+    max-height:200px;
+}
+#wrapper{
+    display:flex;
+    flex-direction:column;
+    width:80vw;
+    margin:5vh auto;
+    gap:5vh;
+}
+
+#featured{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
